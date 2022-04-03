@@ -11,3 +11,5 @@ class Solution {
     
    
 }
+
+//ab tak(curr pos in array) jo min tha uske saath curr price minus karte jao to find profit, jo max profit aayega wahi ans hoga.
