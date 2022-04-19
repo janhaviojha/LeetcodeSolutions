@@ -4,6 +4,9 @@ class Solution {
         int n = nums.length;
         int count =0;
        
+        if(n==1){
+            return 0;
+        }
        for(int i=1;i<n;i++){
            if(nums[i]<=nums[i-1]){
                count += Math.abs(nums[i]-(nums[i-1]+1));
