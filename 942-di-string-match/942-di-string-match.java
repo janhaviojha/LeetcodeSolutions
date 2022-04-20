@@ -6,8 +6,7 @@ class Solution {
         int start =0;
         int end = n;
         int k=0;
-        int i=0;
-        while(start<end){
+        for(int i=0;i<n;i++){
             if(s.charAt(i)=='I'){
                 arr[k++] = start;
                 start++;
@@ -16,7 +15,6 @@ class Solution {
                 arr[k++] = end;
                 end--;
             }
-            i++;
         }
         arr[k++] = start;
         return arr;
